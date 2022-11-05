@@ -1,0 +1,249 @@
+body
+{
+    margin: 0px;
+}
+.container
+{
+	width: 700px;
+	margin: auto;
+
+}
+/* home */
+.home
+{
+    width: 100%;
+    height: 600px;
+    background-image: url('../image/banner-about.jpg');
+}
+.home .header ul
+{
+    font-family: cursive;
+    list-style: none;
+    text-align: center;
+}
+.home .header ul li
+{
+    display: inline-block;
+    padding: 20px;
+
+    
+}
+.home .header ul li a
+{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;   
+}
+/* start scolor nav */
+.scolor_nav
+{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0px;
+    display: none;
+    z-index: 9999;
+}
+.home .best
+{
+    width: 400px;
+    height: 200px;
+    margin: 200px auto;
+    text-align: center;
+}
+.home .best p
+{
+    color: #fff;
+}
+.home .best p.one
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.home .best p.two
+{
+    margin-top: 0px;
+    line-height: 2.5;
+    font-size: 18px;
+}
+/* about us */
+.about{background-image: url('../image/download.jpg');}
+.about ,
+.serves
+{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    overflow: hidden
+}
+.about .about_us 
+{
+    float: right;
+    margin-right: 5%;
+}
+.about .about_us,
+.serves .child
+{
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+}
+.about .about_us h2 ,
+.serves .child h2
+{
+    margin: 0px;
+    color: #ffff73;
+    padding-top: 15%;
+    text-align: center;
+}
+.about .about_us p ,
+.serves .child p
+{
+    color: #eee;
+    line-height: 2;
+}
+/* our serves */
+
+.serves
+{
+    background: url('../image/1.jpg');
+}
+
+.serves .child
+{
+    float: left;
+    margin-left: 5%;
+}
+/* start testimonial */
+.testimonial
+{
+    width: 100%;
+    height: 600px;
+    background-image: url('../image/22.jpg');
+    background-size: cover;
+}
+.testimonial h2
+{
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20px
+}
+.testimonial .test
+{
+    width: 29%;
+    height: 300px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+.testimonial .test i
+{
+    padding-top: 5%;
+}
+.testimonial .test p
+{
+    line-height: 2;
+    text-align: left;
+}
+/*start contact me */
+.contact_me
+{
+    width: 100%;
+    height: 500px;
+    background-image: url('../image/12.jpg')
+}
+.contact_me .form
+{
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+    
+}
+.contact_me .form h2
+{
+    padding-top: 10%;
+    color: #ffff73;
+    padding-bottom: 10%
+}
+.contact_me form
+{
+    width: 80%;
+    margin: auto; 
+}
+.contact_me .form form input ,
+.contact_me .form form textarea
+{
+    display:block;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    outline: 0;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 0;
+    padding-left: 15px;
+}
+.contact_me .form form textarea
+{
+    height: 200px;
+}
+.contact_me .form form input[type="submit"]
+{
+    width: 150px;
+    color: #fff;
+    height: 40px;
+    font-size: 20px
+}
+.footer
+{
+	overflow: hidden;
+	background-color: #191e22;
+	color: #6a6e71;
+	padding: 20px 0px;
+	text-align: center;
+}
+.footer >div span
+{
+	color: #2dcc70;
+	font-weight: bold;
+}
+.footer >div span:last-of-type
+{
+	color: #fff;
+	font-weight: bold;
+}
+.footer ul
+{
+	float: right;
+	list-style: none;
+	padding-left: 0px;
+}
+.footer ul li
+{
+   
+	display: inline-block;
+}
+.footer ul li i:hover
+{
+	color: #fff;
+}
+.footer p
+{
+float: left;
+}
+
+h2
+{
+    margin: 0px;
+}
